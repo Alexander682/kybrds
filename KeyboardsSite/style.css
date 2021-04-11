@@ -1,0 +1,200 @@
+body{
+      margin:0;
+      background-color:#ADEFD1FF;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 5px;
+}
+.container{
+      width: 200px;
+      height: 120px;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  .container img {
+      width: 170px;
+      height: auto;
+      margin-top: 8px;
+      margin-left: 40px;
+  }
+  
+header{
+      background: #00203FFF;
+      height: 70px;
+      Position: relative;
+      text-decoration: none;
+      box-shadow: inset 0px 0px 20px 0px;
+      box-shadow: 0px 0px 20px 0px;
+}
+.logo{
+      float: left;
+}
+
+nav{
+      Position: absolute;
+      Right: 100px;
+      Top: 20px;
+      Float: none;
+      font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+      font-size: 25px;
+      text-decoration: none;
+      text-transform:uppercase;
+}
+
+nav ul{
+      margin: 0px;
+      padding-top: 0px;
+      list-style: none;
+      position: relative;
+}
+
+nav li{
+      float: right;
+      position: relative;
+      text-decoration:none;
+}
+
+nav a{
+      color: #ADEFD1FF;
+      display:flex;
+      align-items:center;
+    
+}
+
+nav a:hover{
+      color: #696969;
+}
+
+nav a::before {
+      content:'';
+      display: block;
+      height: 5px;
+      background-color: #696969;
+
+      position: absolute;
+      top: -20px;
+      width: 0%;
+      transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+      width: 100%;
+}
+
+nav ul li a{
+      text-decoration:none;
+}
+
+#two{
+     position: absolute;
+     max-width: 700px;
+     font-size: 21px;
+     margin-left: 650px;
+     font-family: 'Roboto Mono', monospace;
+     top: 980px;
+
+}
+
+.parallax{
+      background: url('KeyboardsBackground.png') no-repeat right;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 600px;
+}
+
+p{
+      width: 700px;
+      text-align: justify;
+      margin-left: -400px;
+      font-family: 'Roboto Mono', monospace;
+}
+
+#pone{
+      padding-top:50px;
+      margin-top:-300px;
+      text-align: center;
+}
+
+#ptwo{
+      text-align: center;
+}
+
+#pthree{
+      text-align: center;
+}
+
+#typeone{
+      position: absolute;
+      left: 1300px;
+      top: 700px;
+      list-style: none;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 27px;
+      padding: 0px;
+}
+
+#typetwo{
+      position:absolute;
+      left: 1376px;
+      top: 1240px;
+      list-style: none;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 27px;
+      padding: 0px;
+}
+
+#photoone{
+      margin-left: 1158px;
+      margin-top: 10px;
+}
+
+#phototwo{
+      margin-left: 1790px;
+      margin-top: -310px;
+}
+
+footer{
+      position:absolute;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      background-color: #00203FFF;
+      color: white;
+      text-align: center;
+      margin-bottom: -850px;
+      height: 65px;
+      padding-bottom: 0px;
+      font-size: 20px;
+      
+}
+
+#textlistwo{
+      padding: 0px;
+}
+
+#custombr{
+      position: absolute;
+      padding: 0px;
+      left: 1227px;
+      top: 800px;
+      box-shadow: inset 0px 0px 20px 0px;
+      box-shadow: 0px 0px 20px 0px;
+}
+
+#membranekybr{
+      position: absolute;
+      padding: 0px;
+      left: 1200px;
+      top: 1347px;
+      box-shadow: inset 0px 0px 20px 0px;
+      box-shadow: 0px 0px 20px 0px;
+
+}
+
+#fter{
+      position:absolute;
+      text-align: center;
+      left: 52%;
+      top: 0px;
+
+}
